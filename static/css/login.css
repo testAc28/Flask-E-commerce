@@ -26,10 +26,9 @@
 }
 
 .anchorCustom{
-    text:"yellow";
-    link:"green";
-    alink:"#FFFF00";
-    vlink:"#FF00FF";
+    text:yellow;
+    alink:#FFFF00;
+    vlink:#FF00FF;
     text-decoration: none;
 
 }
