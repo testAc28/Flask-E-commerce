@@ -25,5 +25,12 @@
     text-align:right;
 }
 
+.anchorCustom{
+    text:"yellow";
+    link:"green";
+    alink:"#FFFF00";
+    vlink:"#FF00FF";
+    text-decoration: none;
 
+}
 
