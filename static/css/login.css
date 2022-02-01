@@ -25,11 +25,9 @@
     text-align:right;
 }
 
-.anchorCustom{
-    text:yellow;
-    alink:#FFFF00;
-    vlink:#FF00FF;
+.anchorCustom{   
     text-decoration: none;
+    color:green;
 
 }
 
