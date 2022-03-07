@@ -8,7 +8,7 @@
 <body>
 <div id="title">
 	<form>
-		<input id="searchBox" type="text" name="searchQuery">
+		<input id="searchBox" type="text" name="searchQuery" aria-label="Enter search term">
 		<input id="searchButton" type="submit" value="Search">
 	</form>
 
@@ -29,7 +29,7 @@
 	{% endif %}
 	<div id="kart">
 		<a class="link" href="/cart">
-			<img src={{url_for('static', filename='images/shoppingCart.png')}} id="cartIcon" />
+			<img src={{url_for('static', filename='images/shoppingCart.png')}} id="cartIcon" alt="Shopping Cart" />
 			CART {{noOfItems}}
 		</a>
 	</div>
